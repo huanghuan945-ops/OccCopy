@@ -1,0 +1,28 @@
+{
+  "dynamics_checkpoint": {
+    "bytes": 756039709,
+    "sha256": "d90745e7a9c7194f3f82e1240b024448cda8753db0b71c1a36dadaf25e642203",
+    "metadata": {
+      "epoch": 50,
+      "global_iter": 87500
+    },
+    "top_level_keys": [
+      "state_dict",
+      "optimizer",
+      "scheduler",
+      "epoch",
+      "global_iter"
+    ],
+    "state_keys": 768,
+    "state_prefixes": {
+      "vae": 222,
+      "transformer": 538,
+      "pose_encoder": 4,
+      "pose_decoder": 4
+    },
+    "model_floating_tensors_finite": true,
+    "historical_training_selection_manifest_serialized": false,
+    "filename": "dynamics_fulltrain_epoch50.pth"
+  },
+  "actual_embedded_vae_all_tensors_equal": true
+}

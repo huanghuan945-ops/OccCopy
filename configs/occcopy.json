@@ -1,0 +1,22 @@
+{
+  "seed": 2026,
+  "reader": {
+    "checkpoint": "checkpoints/reader_m_pre_ro.pt",
+    "sha256": "57db2321d0e0b41ac9cc9ff59a4226db581153de91cc46d859dfb8fe877e5184",
+    "final_reader_digest": "fab75c971c2441df8fbd05c97c8fb2610c1508b93cc2f13bb0fcc2ffabf6e52b"
+  },
+  "train": {
+    "windows": "experiments/occcopy/train_windows.csv.gz",
+    "sha256": "1ac4a231296c7f290f1f8381a1827c2fee6a850f709ae58b41bac25ea57d9ac5",
+    "count": 1200
+  },
+  "val": {
+    "windows": "experiments/occcopy/validation_windows.csv.gz",
+    "sha256": "50d7feabc181aaf7247ae89329f349a8553ba6ac5938438d58c3c8aca29725a1",
+    "count": 4219,
+    "replay_ids": [
+      "scene-0003:f56a544064a548a39a81f18cc8f633c5",
+      "scene-0003:f286cdaef36648cba3b6a24d2178dc8a"
+    ]
+  }
+}
